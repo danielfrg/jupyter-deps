@@ -1,0 +1,9 @@
+include README.rst
+include LICENSE.txt
+include CHANGELOG.md
+include requirements.txt
+include versioneer.py
+include jupyter_deps/_version.py
+recursive-include jupyter-config *.json
+recursive-include jupyter_deps/static *.js
+recursive-include jupyter_deps/static *.css
